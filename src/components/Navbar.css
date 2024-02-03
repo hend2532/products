@@ -1,0 +1,33 @@
+*{
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  /* position: fixed;
+  background-color: #eeeeeed1; */
+}
+.logo{
+  color: teal;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.list {
+  color: green;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.list li{
+  list-style: none;
+}
+.list li:hover{
+  color: #777;
+  cursor: pointer;
+}
